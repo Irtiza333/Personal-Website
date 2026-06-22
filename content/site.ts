@@ -43,7 +43,7 @@ export const socials: SocialLink[] = [
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/irtiza-khan-512992193",
     icon: "linkedin",
   },
   { label: "ORCID", href: "https://orcid.org/", icon: "orcid" },
