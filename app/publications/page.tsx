@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { Card } from "@/components/Card";
 import { Reveal } from "@/components/Reveal";
 import { BibtexButton } from "@/components/BibtexButton";
+import { withBase } from "@/lib/paths";
 
 export const metadata: Metadata = {
   title: "Publications",
@@ -76,7 +77,7 @@ export default function PublicationsPage() {
                         {pub.links?.map((link) => (
                           <a
                             key={link.label}
-                            href={link.href}
+                            href={withBase(link.href)}
                             target="_blank"
                             rel="noreferrer"
                             className={`rounded-md border px-2.5 py-1 text-xs font-medium transition-colors hover:opacity-90 ${

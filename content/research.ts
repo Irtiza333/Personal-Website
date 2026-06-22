@@ -39,6 +39,24 @@ export const projects: ResearchProject[] = [
     ],
   },
   {
+    title: "Surrogate-Assisted Marine Propeller Optimization in Hull Wake",
+    period: "2024 - present",
+    badge: "Marine",
+    summary:
+      "Maximizing in-situ propeller hydrodynamic efficiency behind a real hull (the Canadian Navy's ORCA-class vessel) by coupling 3D RANS simulations with Gaussian-process surrogates over a Bezier-parameterized design space.",
+    methods: [
+      "3D RANS (ANSYS CFX)",
+      "Multiple reference frame",
+      "Kriging / GP surrogates",
+      "EI & MaxMSE infill",
+    ],
+    highlights: [
+      "Automated workflow from geometry parameterization and CAD to meshing and HPC simulation.",
+      "Improved hydrodynamic efficiency from 50.93% to 53.07% using 250 high-fidelity evaluations.",
+      "Iterative surrogate retraining cuts the cost of an 11-variable propeller design search.",
+    ],
+  },
+  {
     title: "Surrogate-Assisted High-Fidelity CFD Design",
     period: "2022 - present",
     badge: "CFD",

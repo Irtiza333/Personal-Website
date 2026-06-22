@@ -13,13 +13,14 @@ export type NavItem = {
 export const site = {
   name: "Irtiza Khan",
   // short, punchy role used in the hero + page titles
-  role: "PhD Researcher, Aerospace Engineering",
-  tagline: "Surrogate-assisted optimization for aerodynamic shape design",
+  role: "MScE Researcher, Mechanical Engineering",
+  tagline:
+    "Surrogate-assisted optimization for aerodynamic and marine shape design",
   // one or two sentences for the hero intro
   intro:
-    "I build machine-learning-driven optimization methods that make high-fidelity aerodynamic design faster. My current work couples Gaussian-process surrogates with particle swarm optimization to design airfoils and high-lift slats under expensive CFD evaluations.",
-  location: "Toronto, Canada",
-  email: "irtiza@example.com",
+    "I build machine-learning-driven optimization methods that make high-fidelity CFD design faster. At the University of New Brunswick, my work couples Gaussian-process surrogates with swarm and Bayesian optimization to design wind-turbine airfoil slats and marine propellers under expensive, failure-prone simulations.",
+  location: "Fredericton, New Brunswick, Canada",
+  email: "irtiza.khan@unb.ca",
   // path is resolved against the deployment base path automatically
   resume: "/cv.pdf",
   avatar: "/avatar.svg",
@@ -46,5 +47,5 @@ export const socials: SocialLink[] = [
     icon: "linkedin",
   },
   { label: "ORCID", href: "https://orcid.org/", icon: "orcid" },
-  { label: "Email", href: "mailto:irtiza@example.com", icon: "email" },
+  { label: "Email", href: "mailto:irtiza.khan@unb.ca", icon: "email" },
 ];
